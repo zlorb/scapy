@@ -1,4 +1,4 @@
 scapy
 =====
 
-Scapy Windows with Python 2.7
+Steps to get scapy running on Windows with Python 2.7
