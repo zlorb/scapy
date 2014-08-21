@@ -12,13 +12,13 @@ Currently using Visual Studio to compile some of the dependencies (may look for 
 
 You should have the following installed already:
 
-Package  |  URL  | Comments  |
----------|-------|-----------|
-Python 2.7 | https://www.python.org/downloads/ | Tested with 32-bit version |
-Visual Studio | [Get your licensed version](http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx) | Tested with VisualStudio 2013 |
-pip or setuptools | [PIP](https://pypi.python.org/pypi/pip/) or [setuptools](https://pypi.python.org/pypi/setuptools) | You should consider using [virtualenv](https://pypi.python.org/pypi/virtualenv)  |
-7zip | [7zip](http://7-zip.org/download.html) | Or a similar zip/tar.gz extraction utility  |
-chocolatery | http://chocolatey.org/ | Recommended for easy installation of dependencies  |
+Package  | Comments  |
+---------|-----------|
+[Python 2.7](https://www.python.org/downloads/) | Tested with 32-bit version |
+Visual Studio [Get your licensed version](http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx) | Tested with VisualStudio 2013 |
+[pip](https://pypi.python.org/pypi/pip/) or [setuptools](https://pypi.python.org/pypi/setuptools) | You should consider using [virtualenv](https://pypi.python.org/pypi/virtualenv)  |
+[7zip](http://7-zip.org/download.html) | Or a similar zip/tar.gz extraction utility  |
+[chocolatery](http://chocolatey.org/) | Recommended for easy installation of dependencies  |
 
 Note that you will have to run most/all of the installs from elevated privileges ('run as administrator').
 
@@ -36,7 +36,7 @@ Application  |   Chocolatery   |
 [queso](http://www.packetstormsecurity.org/UNIX/scanners/queso-980922.tar.gz)  |  |
 [tortoisehg](http://tortoisehg.bitbucket.org/download/index.html)  |  choco install tortoisehg |
 
-You can replace tortoisehg with command line version of hg, or download the source as zip file.
+You can replace tortoisehg with command line version of hg, or later download scapy source as zip file.
 
 # Install Scapy Dependencies
 From command line (pip / easy_install executables are usually under c:\python27\scripts):
