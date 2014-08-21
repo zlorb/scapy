@@ -36,7 +36,8 @@ Application  |   Chocolatery   |
 [queso](http://www.packetstormsecurity.org/UNIX/scanners/queso-980922.tar.gz)  |  |
 [tortoisehg](http://tortoisehg.bitbucket.org/download/index.html)  |  `choco install tortoisehg` |
 
-You can replace tortoisehg with command line version of hg, or later download scapy source as zip file.
+- You can replace tortoisehg with command line version of hg, or later download scapy source as zip file.
+- MikTex has to be installed to a path without space characters.
 
 # Install Scapy Dependencies
 From command line (pip / easy_install executables are usually under c:\python27\scripts):
