@@ -16,23 +16,39 @@ Package  |  URL  | Comments  |
 ---------|-------|-----------|
 Python 2.7 | https://www.python.org/downloads/ | Tested with 32-bit version |
 Visual Studio | [Get your licensed version](http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx) | Tested with VisualStudio 2013 |
-pip or setuptools | [PIP](https://pypi.python.org/pypi/pip/) [setuptools](https://pypi.python.org/pypi/setuptools) | You should consider using [virtualenv](https://pypi.python.org/pypi/virtualenv)  |
+pip or setuptools | [PIP](https://pypi.python.org/pypi/pip/) or [setuptools](https://pypi.python.org/pypi/setuptools) | You should consider using [virtualenv](https://pypi.python.org/pypi/virtualenv)  |
 chocolatery | http://chocolatey.org/ | Recommended for easy installation of dependencies  |
 
 Note that you will have to run most/all of the installs from elevated privilleges ('run as administrator').
 
-# Install applications
+# Install Applications
 Application  |   URL    |   Chocolatery   |
 -------------|----------|-----------------|
 Graphviz     | http://graphviz.org/Download_windows.php  |  choco install Graphviz  |
 Gnuplot      | http://www.gnuplot.info/download.html  |  choco install gnuplot |
 winpcap      | http://www.winpcap.org/install/default.htm  |  choco install WinPcap  |
+pywin32      | http://sourceforge.net/projects/pywin32/files/?source=navbar  | choco install PyWin32  |
 tortoisehg   | http://tortoisehg.bitbucket.org/download/index.html  |  choco install tortoisehg |
 
-# Install Scapy dependencies
-From command line (executables are usually under c:\python27\scripts):
-- pip install ipython
+You can replace tortoisehg with command line version of hg, or download the source as zip file.
+
+# Install Scapy Dependencies
+From command line (pip / easy_install executables are usually under c:\python27\scripts):
+- pip install pyreadline
+- pip install ipython    (optional)
 - pip install numpy
 - pip install pycrypto
 - pip install pyx
 - pip install gnuplot-py
+
+- Install pcapy from [link1](https://code.google.com/p/pypcap/issues/detail?id=36) or [link2](http://breakingcode.wordpress.com/2012/07/16/quickpost-updated-impacketpcapy-installers-for-python-2-5-2-6-2-7/)
+- Install dnet from [link3](http://dirk-loss.de/scapy/dnet-1.12.win32-py2.7.exe) or [link4](https://twitter.com/dloss/status/18457222544)
+
+# Install Scapy
+- Get latest scapy source code from [source1](https://bitbucket.org/secdev/scapy/src), [source2](https://bitbucket.org/secdev/scapy-com), or [as a zip file]](https://bitbucket.org/secdev/scapy/wiki/Home).
+- Open command prompt in the source folder and run: python setup.py install
+
+# Test & Run
+- Run scapy.bat from (c:\python27\scripts).
+- If start up complains about missing dependencies - install them.
+- If you see an error about mismatch between pcap and dnet, try re-installing winpcap.
