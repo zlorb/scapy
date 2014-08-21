@@ -53,7 +53,7 @@ Note: pyx version 0.13 and above are for Python3. As of this writing, 0.12.1 is 
 - Install dnet from [link3](http://dirk-loss.de/scapy/dnet-1.12.win32-py2.7.exe) or [link4](https://twitter.com/dloss/status/18457222544).
 
 # Install Scapy
-- Get latest scapy source code from [source1](https://bitbucket.org/secdev/scapy/src), [source2](https://bitbucket.org/secdev/scapy-com), or [as a zip file]](https://bitbucket.org/secdev/scapy/wiki/Home).
+- Get latest scapy source code from [source1](https://bitbucket.org/secdev/scapy/src), [source2](https://bitbucket.org/secdev/scapy-com), or [as a zip file](https://bitbucket.org/secdev/scapy/wiki/Home).
 - Open command prompt in the source folder and run: `python setup.py install`
 
 - Unzip queso (downloaded above) to your Scapy directory (C:\Python27\Lib\site-packages\scapy).
