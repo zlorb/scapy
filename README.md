@@ -31,13 +31,14 @@ Application  |   Chocolatery   |
 [pywin32](http://sourceforge.net/projects/pywin32/files/?source=navbar)  | `choco install PyWin32`  |
 [imagemagick](http://www.imagemagick.org/script/binary-releases.php#windows)  | `choco install imagemagick.app`  |
 [miktex](http://miktex.org/download)  | `choco install miktex`  |
+[wireshark](https://www.wireshark.org/download.html)  |  `choco install wireshark`  |
 [nmap](http://nmap.org/download.html)  |  `choco install nmap`  |
 [vpython](http://www.vpython.org/contents/download_windows.html) |  |
 [queso](http://www.packetstormsecurity.org/UNIX/scanners/queso-980922.tar.gz)  |  |
 [tortoisehg](http://tortoisehg.bitbucket.org/download/index.html)  |  `choco install tortoisehg` |
 
-- You can replace tortoisehg with command line version of hg, or later download scapy source as zip file.
-- MikTex has to be installed to a path without space characters.
+- You can replace tortoisehg with command line version of hg, or later download scapy source as a zip file.
+- MikTex has to be installed to a path without space characters. Then add the (INSTALLDIR)\miktex\bin subdirectory to your PATH.
 
 # Install Scapy Dependencies
 From command line (pip / easy_install executables are usually under c:\python27\scripts):
