@@ -44,7 +44,8 @@ Application  |   Chocolatery   |
 [tortoisehg](http://tortoisehg.bitbucket.org/download/index.html)  |  `choco install tortoisehg` |
 
 - You can replace tortoisehg with command line version of hg, or later download scapy source as a zip file.
-- MikTex has to be installed to a path without space characters. Then add the (INSTALLDIR)\miktex\bin subdirectory to your PATH.
+- MikTex (and others) have to be installed to a path without space characters. 
+- Add to the PATH any other application you installed. For example, for MikTex - add the (MikTek Install Dir)\miktex\bin subdirectory to your PATH.
 
 # Install Scapy Dependencies
 Pick the add-ons you are planning to use. You will need at least: pyreadline, pcapy, and dnet.
