@@ -15,7 +15,7 @@ You should have the following installed already:
 Package  | Comments  |
 ---------|-----------|
 [Python 2.7](https://www.python.org/downloads/) | Tested with 32-bit version |
-Visual Studio [Get your licensed version](http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx) | Tested with VisualStudio 2013 |
+Visual Studio - [Get your licensed version](http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx) | Tested with VisualStudio 2013 |
 [pip](https://pypi.python.org/pypi/pip/) or [setuptools](https://pypi.python.org/pypi/setuptools) | You should consider using [virtualenv](https://pypi.python.org/pypi/virtualenv)  |
 [7zip](http://7-zip.org/download.html) | Or a similar zip/tar.gz extraction utility  |
 [chocolatery](http://chocolatey.org/) | Recommended for easy installation of dependencies  |
@@ -46,10 +46,11 @@ From command line (pip / easy_install executables are usually under c:\python27\
 - pip install pycrypto
 - pip install gnuplot-py
 - pip install pyx==0.12.1
+
 Note: pyx version 0.13 and above are for Python3. As of this writing, 0.12.1 is the latest for Python2.
 
-- Install pcapy from [link1](https://code.google.com/p/pypcap/issues/detail?id=36) or [link2](http://breakingcode.wordpress.com/2012/07/16/quickpost-updated-impacketpcapy-installers-for-python-2-5-2-6-2-7/)
-- Install dnet from [link3](http://dirk-loss.de/scapy/dnet-1.12.win32-py2.7.exe) or [link4](https://twitter.com/dloss/status/18457222544)
+- Install pcapy from [link1](https://code.google.com/p/pypcap/issues/detail?id=36) or [link2](http://breakingcode.wordpress.com/2012/07/16/quickpost-updated-impacketpcapy-installers-for-python-2-5-2-6-2-7/).
+- Install dnet from [link3](http://dirk-loss.de/scapy/dnet-1.12.win32-py2.7.exe) or [link4](https://twitter.com/dloss/status/18457222544).
 
 # Install Scapy
 - Get latest scapy source code from [source1](https://bitbucket.org/secdev/scapy/src), [source2](https://bitbucket.org/secdev/scapy-com), or [as a zip file]](https://bitbucket.org/secdev/scapy/wiki/Home).
@@ -65,4 +66,7 @@ Note: pyx version 0.13 and above are for Python3. As of this writing, 0.12.1 is 
   - Try closing other sniffers and restart scapy. 
   - Try re-installing winpcap and restart. 
   - If still not working, have a look at [1](http://article.gmane.org/gmane.comp.security.scapy.general/3932), [2](http://article.gmane.org/gmane.comp.security.scapy.general/3937), [3](http://article.gmane.org/gmane.comp.security.scapy.general/3902).
+
+# Links
+- [Scapy demo](http://www.secdev.org/projects/scapy/demo.html).
 
