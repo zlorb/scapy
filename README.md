@@ -23,18 +23,18 @@ chocolatery | http://chocolatey.org/ | Recommended for easy installation of depe
 Note that you will have to run most/all of the installs from elevated privileges ('run as administrator').
 
 # Install Applications
-Application  |   URL    |   Chocolatery   |
--------------|----------|-----------------|
-Graphviz     | http://graphviz.org/Download_windows.php  |  choco install Graphviz  |
-Gnuplot      | http://www.gnuplot.info/download.html  |  choco install gnuplot |
-winpcap      | http://www.winpcap.org/install/default.htm  |  choco install WinPcap  |
-pywin32      | http://sourceforge.net/projects/pywin32/files/?source=navbar  | choco install PyWin32  |
-imagemagick  | http://www.imagemagick.org/script/binary-releases.php#windows  | choco install imagemagick.app  |
-miktex       | http://miktex.org/download  | choco install miktex  |
-nmap         | http://nmap.org/download.html  |  choco install nmap  |
-vpython      | http://www.vpython.org/contents/download_windows.html |  |
-queso        | http://www.packetstormsecurity.org/UNIX/scanners/queso-980922.tar.gz  |  |
-tortoisehg   | http://tortoisehg.bitbucket.org/download/index.html  |  choco install tortoisehg |
+Application  |   Chocolatery   |
+-------------|-----------------|
+[Graphviz](http://graphviz.org/Download_windows.php) |  choco install Graphviz  |
+[Gnuplot](http://www.gnuplot.info/download.html)  |  choco install gnuplot |
+[winpcap](http://www.winpcap.org/install/default.htm)  |  choco install WinPcap  |
+[pywin32](http://sourceforge.net/projects/pywin32/files/?source=navbar)  | choco install PyWin32  |
+[imagemagick](http://www.imagemagick.org/script/binary-releases.php#windows)  | choco install imagemagick.app  |
+[miktex](http://miktex.org/download)  | choco install miktex  |
+[nmap](http://nmap.org/download.html)  |  choco install nmap  |
+[vpython](http://www.vpython.org/contents/download_windows.html) |  |
+[queso](http://www.packetstormsecurity.org/UNIX/scanners/queso-980922.tar.gz)  |  |
+[tortoisehg](http://tortoisehg.bitbucket.org/download/index.html)  |  choco install tortoisehg |
 
 You can replace tortoisehg with command line version of hg, or download the source as zip file.
 
