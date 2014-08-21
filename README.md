@@ -15,7 +15,7 @@ You should have the following installed already:
 Package  | Comments  |
 ---------|-----------|
 [Python 2.7](https://www.python.org/downloads/) | Tested with 32-bit version |
-Visual Studio - [Get your licensed version](http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx) | Tested with VisualStudio 2013 |
+Visual Studio - [get your licensed version](http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx) | Tested with VisualStudio 2013 |
 [pip](https://pypi.python.org/pypi/pip/) or [setuptools](https://pypi.python.org/pypi/setuptools) | You should consider using [virtualenv](https://pypi.python.org/pypi/virtualenv)  |
 [7zip](http://7-zip.org/download.html) | Or a similar zip/tar.gz extraction utility  |
 [chocolatery](http://chocolatey.org/) | Recommended for easy installation of dependencies  |
@@ -25,27 +25,27 @@ Note that you will have to run most/all of the installs from elevated privileges
 # Install Applications
 Application  |   Chocolatery   |
 -------------|-----------------|
-[Graphviz](http://graphviz.org/Download_windows.php) |  choco install Graphviz  |
-[Gnuplot](http://www.gnuplot.info/download.html)  |  choco install gnuplot |
-[winpcap](http://www.winpcap.org/install/default.htm)  |  choco install WinPcap  |
-[pywin32](http://sourceforge.net/projects/pywin32/files/?source=navbar)  | choco install PyWin32  |
-[imagemagick](http://www.imagemagick.org/script/binary-releases.php#windows)  | choco install imagemagick.app  |
-[miktex](http://miktex.org/download)  | choco install miktex  |
-[nmap](http://nmap.org/download.html)  |  choco install nmap  |
+[Graphviz](http://graphviz.org/Download_windows.php) |  `choco install Graphviz`  |
+[Gnuplot](http://www.gnuplot.info/download.html)  |  `choco install gnuplot` |
+[winpcap](http://www.winpcap.org/install/default.htm)  |  `choco install WinPcap`  |
+[pywin32](http://sourceforge.net/projects/pywin32/files/?source=navbar)  | `choco install PyWin32`  |
+[imagemagick](http://www.imagemagick.org/script/binary-releases.php#windows)  | `choco install imagemagick.app`  |
+[miktex](http://miktex.org/download)  | `choco install miktex`  |
+[nmap](http://nmap.org/download.html)  |  `choco install nmap`  |
 [vpython](http://www.vpython.org/contents/download_windows.html) |  |
 [queso](http://www.packetstormsecurity.org/UNIX/scanners/queso-980922.tar.gz)  |  |
-[tortoisehg](http://tortoisehg.bitbucket.org/download/index.html)  |  choco install tortoisehg |
+[tortoisehg](http://tortoisehg.bitbucket.org/download/index.html)  |  `choco install tortoisehg` |
 
 You can replace tortoisehg with command line version of hg, or later download scapy source as zip file.
 
 # Install Scapy Dependencies
 From command line (pip / easy_install executables are usually under c:\python27\scripts):
-- pip install pyreadline
-- pip install ipython    (optional)
-- pip install numpy
-- pip install pycrypto
-- pip install gnuplot-py
-- pip install pyx==0.12.1
+- `pip install pyreadline`
+- `pip install ipython`    (optional)
+- `pip install numpy`
+- `pip install pycrypto`
+- `pip install gnuplot-py`
+- `pip install pyx==0.12.1`
 
 Note: pyx version 0.13 and above are for Python3. As of this writing, 0.12.1 is the latest for Python2.
 
@@ -60,7 +60,7 @@ Note: pyx version 0.13 and above are for Python3. As of this writing, 0.12.1 is 
 
 
 # Test & Run
-- Run scapy.bat from (c:\python27\scripts).
+- Run `scapy.bat` from (c:\python27\scripts).
 - If start up complains about missing dependencies - install them.
 - If you see an error about mismatch between pcap and dnet:
   - Try closing other sniffers and restart scapy. 
