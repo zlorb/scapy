@@ -24,10 +24,9 @@ Visual Studio - [get your licensed version](http://msdn.microsoft.com/en-us/vstu
 Note that you will have to run most/all of the installs from elevated privileges ('run as administrator').
 
 # Install Applications
-Pick the add-ons you are planning to use. 
-Minimum requirement seems to be:
-- pywin32
-- winpcap
+Pick the add-ons you are planning to use.
+
+Minimum requirement seems to be pywin32 and winpcap.
 
 Application  |   Chocolatery   |
 -------------|-----------------|
