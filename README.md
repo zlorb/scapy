@@ -9,6 +9,7 @@ scapy
 # Pre-requisites
 These steps were tested on Windows 8.1 64-bit.
 Currently using Visual Studio to compile some of the dependencies (may look for free alternatives later).
+Visual Studio could be skipped if installing only pre-compiled binaries.
 
 You should have the following installed already:
 
@@ -23,6 +24,11 @@ Visual Studio - [get your licensed version](http://msdn.microsoft.com/en-us/vstu
 Note that you will have to run most/all of the installs from elevated privileges ('run as administrator').
 
 # Install Applications
+Pick the add-ons you are planning to use. 
+Minimum requirement seems to be:
+- pywin32
+- winpcap
+
 Application  |   Chocolatery   |
 -------------|-----------------|
 [Graphviz](http://graphviz.org/Download_windows.php) |  `choco install Graphviz`  |
@@ -41,6 +47,8 @@ Application  |   Chocolatery   |
 - MikTex has to be installed to a path without space characters. Then add the (INSTALLDIR)\miktex\bin subdirectory to your PATH.
 
 # Install Scapy Dependencies
+Pick the add-ons you are planning to use. You will need at least: pyreadline, pcapy, and dnet.
+
 From command line (pip / easy_install executables are usually under c:\python27\scripts):
 - `pip install pyreadline`
 - `pip install ipython`    (optional)
@@ -70,5 +78,12 @@ Note: pyx version 0.13 and above are for Python3. As of this writing, 0.12.1 is 
   - If still not working, have a look at [1](http://article.gmane.org/gmane.comp.security.scapy.general/3932), [2](http://article.gmane.org/gmane.comp.security.scapy.general/3937), [3](http://article.gmane.org/gmane.comp.security.scapy.general/3902).
 
 # Links
+- [Scapy home page](http://www.secdev.org/projects/scapy/).
+- [Scapy docs](http://www.secdev.org/projects/scapy/doc/index.html).
 - [Scapy demo](http://www.secdev.org/projects/scapy/demo.html).
+- The Very Unofficial [Dummies Guide to Scapy](http://scapy-guide.googlecode.com/files/ScapyGuide.pdf).
+
+# Final Words
+- Please leave a ticket if the above steps need to be update.
+- Please add a comment in the [wiki](https://github.com/zlorb/scapy/wiki) on working configurations and additional tips on how to get there.
 
