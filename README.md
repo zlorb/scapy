@@ -19,21 +19,21 @@ Package  | Comments  |
 Visual Studio - use [Microsoft Visual C++ Compiler for Python 2.7](https://www.microsoft.com/en-us/download/details.aspx?id=44266) OR get a [licensed version](http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx) | Tested with VisualStudio 2013
 [pip](https://pypi.python.org/pypi/pip/) or [setuptools](https://pypi.python.org/pypi/setuptools) | You should consider using [virtualenv](https://pypi.python.org/pypi/virtualenv)
 [7zip](http://7-zip.org/download.html) | Or a similar zip/tar.gz extraction utility
-[chocolatery](http://chocolatey.org/) | Recommended for easy installation of dependencies
+[chocolatey](http://chocolatey.org/) | Recommended for easy installation of dependencies
 
 Note that you will have to run most/all of the installs from elevated privileges ('run as administrator').
 
 # Install Applications
 Pick the add-ons you are planning to use.
 
-Minimum requirement seems to be pywin32 and winpcap.
+**Minimum requirement is npcap.**
 
 Application  |   Chocolatery   |
 -------------|-----------------|
+[npcap](https://nmap.org/npcap/)  |  `\`  |
+[cryptography](https://github.com/pyca/cryptography) | `\` |
 [Graphviz](http://graphviz.org/Download_windows.php) |  `choco install Graphviz`  |
-[Gnuplot](http://www.gnuplot.info/download.html)  |  `choco install gnuplot` |
-[winpcap](http://www.winpcap.org/install/default.htm)  |  `choco install WinPcap`  |
-[pywin32](http://sourceforge.net/projects/pywin32/files/?source=navbar)  | `choco install PyWin32`  |
+[Matplotlib](https://matplotlib.org/)  |  `choco install matplotlib` |
 [imagemagick](http://www.imagemagick.org/script/binary-releases.php#windows)  | `choco install imagemagick.app`  |
 [miktex](http://miktex.org/download)  | `choco install miktex`  |
 [wireshark](https://www.wireshark.org/download.html)  |  `choco install wireshark`  |
@@ -50,11 +50,9 @@ Application  |   Chocolatery   |
 Pick the add-ons you are planning to use. You will need at least: pyreadline, pcapy, and dnet.
 
 From command line (pip / easy_install executables are usually under c:\python27\scripts):
-- `pip install pyreadline`
-- `pip install ipython`    (optional)
-- `pip install numpy`
-- `pip install pycrypto`
-- `pip install gnuplot-py`
+- `pip install ipython`    (recommanded)
+- `pip install cryptography`
+- `pip install matplotlib`
 - `pip install pyx==0.12.1`
 
 Note: pyx version 0.13 and above are for Python3. As of this writing, 0.12.1 is the latest for Python2.
@@ -63,7 +61,7 @@ Note: pyx version 0.13 and above are for Python3. As of this writing, 0.12.1 is 
 - Install dnet from [link3](http://dirk-loss.de/scapy/dnet-1.12.win32-py2.7.exe) or [link4](https://twitter.com/dloss/status/18457222544).
 
 # Install Scapy
-- Get latest scapy source code from [source1](https://bitbucket.org/secdev/scapy/src), [source2](https://bitbucket.org/secdev/scapy-com), or [as a zip file](https://bitbucket.org/secdev/scapy/wiki/Home).
+- Get latest scapy source code from [source](https://github.com/secdev/scapy), or [as a zip file](https://github.com/secdev/scapy/archive/master.zip).
 - Open command prompt in the source folder and run: `python setup.py install`
 
 - Unzip queso (downloaded above) to your Scapy directory (C:\Python27\Lib\site-packages\scapy).
